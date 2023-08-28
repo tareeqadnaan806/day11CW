@@ -2,7 +2,7 @@
 
 # Tip Calculator
 
-hosted link: 
+## hosted link: https://tareeqadnaan806.github.io/day11CW/
 
 this is the day 10 assignmet to make tip calculator as a person enters amount, service and number of persons a tip will be calculated depending on that
 
