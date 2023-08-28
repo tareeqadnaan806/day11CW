@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day11 ClassWork</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1 class="heading">Adnaan Tip's Calculator</h1>
+
+           <div class="price" style="margin-bottom: 10%;">
+            <h2>How much was your bill? </h2>
+            <span style="font-size: larger;">Rs. </span><input type="number" name="" id="price">
+           </div>
+
+           <div class="service" style="margin-bottom: 15%;">
+            <h2>How was your service?</h2>
+            <select name="" id="options" onchange="change(this)">
+                <option value="30">30% - Outstanding</option>
+                <option value="20">20% - Good</option>
+                <option value="15">15% - It was okay</option>
+                <option value="10">10% - Bad</option>
+                <option value="5">5% - Terrible</option>
+            </select>
+           </div>
+
+           <div class="people" style="margin-bottom: 8%;">
+            <h2>How many people are sharing the bill?</h2>
+            <input type="number" name="" id="people"> People
+           </div>
+
+           <div class="calculate">
+            <a  class="anchor" id="calculate">Calculate</a>
+           </div>
+
+           <div style="margin-bottom: 10%;"  class="box">
+            <h3 style="text-align: center;">Tip Amount: </h3>
+            <div id="tip" class="tip"></div>
+            </div>
+    </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

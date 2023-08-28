@@ -1,0 +1,55 @@
+body{
+    background-image: url(./enlarge_th.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    height: auto;
+    width: 45%;
+    background-color: bisque;
+    margin-top: 3%;
+    color: rgb(170, 113, 113);
+    padding: 0px 15px
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.calculate{
+    display: flex;
+    justify-content: center;
+}
+
+.anchor{
+    text-decoration: none;
+    font-size: 200%;
+    border: 5px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tip{
+    border: 2px solid black;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 8px;
+}
